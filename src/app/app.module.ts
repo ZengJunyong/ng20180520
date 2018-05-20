@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+console.log('Step 2: In module, call a component');
+
 @NgModule({
   declarations: [
     AppComponent

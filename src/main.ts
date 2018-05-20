@@ -4,11 +4,11 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { AppModule } from './app/app.module';
 import { environment } from './environments/environment';
 
-debugger;
-
 if (environment.production) {
   enableProdMode();
 }
+
+console.log('Step 1: In main.ts, call a module');
 
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.log(err));
