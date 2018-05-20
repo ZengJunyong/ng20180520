@@ -8,5 +8,5 @@ console.log('Step 3: In component, match the tag, render the page');
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'My First Angular App!';
 }
